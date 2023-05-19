@@ -10,9 +10,12 @@
 
 #include "IScene.hpp"
 #include "Widget.hpp"
+#include "UIText.hpp"
 #include "SceneManager.hpp"
+#include "ResourceManager.hpp"
+#include "info.hpp"
 
-class MenuScene : public IScene{
+class Menu : public IScene{
     public:
         Menu();
         ~Menu();

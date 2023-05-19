@@ -7,8 +7,6 @@
 
 #include "SceneManager.hpp"
 
-namespace jam {
-
     SceneManager::SceneManager()
     {
         m_currentScene = nullptr;
@@ -78,4 +76,3 @@ namespace jam {
     {
         return m_currentSceneIndex;
     }
-}

@@ -13,8 +13,6 @@
     #include "Box.hpp"
     #include <functional>
 
-    namespace jam {
-
     namespace ui {
         class Button : public Widget, public Box {
             public:
@@ -37,8 +35,6 @@
                 State m_state = IDLE;
                 std::function<void(void)> m_function = []() {};
         };
-    }
-
     }
 
 #endif /* !BUTTON_HPP_ */

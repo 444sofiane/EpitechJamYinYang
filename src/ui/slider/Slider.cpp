@@ -10,8 +10,6 @@
 #include "info.hpp"
 #include "math.hpp"
 
-namespace jam {
-
 namespace ui {
 
 Slider::Slider(const sf::Texture& wagonTexture, const sf::Texture& railTexture, Orientation orientation)
@@ -191,5 +189,4 @@ void Slider::render(sf::RenderTarget& target)
     //target.draw(m_internRail);
 }
 
-}
 }

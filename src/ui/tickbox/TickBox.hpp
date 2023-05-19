@@ -13,7 +13,6 @@
 #include "Animation.hpp"
 #include <functional>
 
-namespace jam {
     namespace ui {
         class TickBox : public Widget, public Box {
             public:
@@ -39,4 +38,3 @@ namespace jam {
                 std::function<void(bool)> m_callback;
         };
     }
-}

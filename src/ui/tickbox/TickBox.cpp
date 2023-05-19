@@ -7,7 +7,6 @@
 
 #include "TickBox.hpp"
 
-namespace jam {
     namespace ui {
 
         TickBox::TickBox(sf::Texture& texture)
@@ -90,4 +89,3 @@ namespace jam {
             return m_checked;
         }
     }
-}

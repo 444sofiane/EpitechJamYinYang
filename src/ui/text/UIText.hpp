@@ -10,8 +10,6 @@
 
     #include "Widget.hpp"
 
-    namespace jam {
-
     namespace ui {
         class Text : public Widget, public Widget::Text {
             public:
@@ -23,8 +21,6 @@
                 sf::Vector2f getSize() const override;
                 void render(sf::RenderTarget& target) override;
         };
-    }
-
     }
 
 #endif /* !UITEXT_HPP_ */

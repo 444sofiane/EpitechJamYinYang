@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/soso2/OneDrive/Bureau/taf/Tek2/Jam/EpitechJamYinYang/src/helper/info/info.cpp
+info.hpp
+/mnt/c/Users/soso2/OneDrive/Bureau/taf/Tek2/Jam/EpitechJamYinYang/src/helper/info/info.hpp
+
+/mnt/c/Users/soso2/OneDrive/Bureau/taf/Tek2/Jam/EpitechJamYinYang/src/helper/info/info.hpp
+common.hpp
+/mnt/c/Users/soso2/OneDrive/Bureau/taf/Tek2/Jam/EpitechJamYinYang/src/helper/info/common.hpp
+
+include/common.hpp
+string
+-
+iostream
+-
+memory
+-
+cmath
+-
+unordered_map
+-
+SFML/Graphics.hpp
+-
+SFML/Window.hpp
+-
+SFML/System.hpp
+-
+SFML/Audio.hpp
+-
+SFML/Config.hpp
+-
+

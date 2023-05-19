@@ -1,0 +1,3 @@
+/mnt/c/Users/soso2/OneDrive/Bureau/taf/Tek2/Jam/EpitechJamYinYang/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/soso2/OneDrive/Bureau/taf/Tek2/Jam/EpitechJamYinYang/CMakeFiles/edit_cache.dir
+/mnt/c/Users/soso2/OneDrive/Bureau/taf/Tek2/Jam/EpitechJamYinYang/CMakeFiles/yinyangClash.dir

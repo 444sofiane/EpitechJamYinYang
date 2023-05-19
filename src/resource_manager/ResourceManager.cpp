@@ -9,9 +9,6 @@
 #include "ResourceManager.hpp"
 #include "parsing.hpp"
 
-namespace jam
-{
-
     ResourceManager::ResourceManager()
     {
         loadAssets();
@@ -21,6 +18,7 @@ namespace jam
     {
 
         loadTexture("menu_bg", "asset/texture/menu_bg.png");
+        loadTexture("cursor", "asset/texture/cursor.png");
 
         loadFont("title_font", "asset/font/Shikamaru.ttf");
     }
@@ -115,5 +113,3 @@ namespace jam
             m_musics[name] = std::make_unique<sf::Music>();
         return *m_musics.at(name);
     }
-
-}

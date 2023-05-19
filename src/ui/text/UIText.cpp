@@ -7,8 +7,6 @@
 
 #include "UIText.hpp"
 
-namespace jam {
-
 namespace ui {
 
 Text::Text()
@@ -44,5 +42,4 @@ sf::Vector2f Text::getSize() const
     return {getGlobalBounds().width, getGlobalBounds().height};
 }
 
-}
 }

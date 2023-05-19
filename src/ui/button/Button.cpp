@@ -8,8 +8,6 @@
 #include "Button.hpp"
 #include "ResourceManager.hpp"
 
-namespace jam {
-
 namespace ui {
 
 Button::Button(const Button& other)
@@ -31,7 +29,7 @@ Button::Button(const sf::Texture& texture, const std::string& label)
     Box::setSize(sf::Vector2f(texture.getSize().x / 3, texture.getSize().y));
     setOrigin(getGlobalBounds().width * 0.5f, getGlobalBounds().height * 0.5f);
     m_label.setString(label);
-    m_label.setFont(getResource().getFont("gameFont"));
+    m_label.setFont(getResource().getFont("Shikamaru"));
     m_label.setOrigin(m_label.getGlobalBounds().width / 2, m_label.getGlobalBounds().height / 2);
     m_label.setPosition(this->getPosition());
     m_label.setFillColor(sf::Color(150, 150, 150, 255));
@@ -99,5 +97,4 @@ void Button::render(sf::RenderTarget& target)
     target.draw(m_label);
 }
 
-}
 }

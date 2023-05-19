@@ -12,7 +12,6 @@
 
     #define getResource() ResourceManager::getInstance()
 
-    namespace jam {
 
     class ResourceManager {
     public:
@@ -38,7 +37,5 @@
         ResourceManager(const ResourceManager&) = delete;
         ResourceManager& operator=(const ResourceManager&) = delete;
     };
-
-    }
 
 #endif /* !RESOURCEMANAGER_HPP_ */

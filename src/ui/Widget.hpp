@@ -10,8 +10,6 @@
 
     #include "common.hpp"
 
-    namespace jam {
-
     namespace ui
     {
         class Widget
@@ -30,7 +28,4 @@
             };
         };
     }
-
-    }
-
 #endif /* !IWidget_HPP_ */

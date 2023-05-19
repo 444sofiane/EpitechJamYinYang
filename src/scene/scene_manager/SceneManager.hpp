@@ -11,8 +11,6 @@
     #include "common.hpp"
     #include "IScene.hpp"
 
-    namespace jam {
-
     class SceneManager {
         public:
             SceneManager();
@@ -38,7 +36,4 @@
             int m_currentSceneIndex;
             std::vector<std::shared_ptr<IScene>> m_scenesVector;
     };
-
-    }
-
 #endif /* !SCENEMANAGER_HPP_ */

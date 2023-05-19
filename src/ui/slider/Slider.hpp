@@ -12,8 +12,6 @@
     #include "Animation.hpp"
     #include "Box.hpp"
 
-    namespace jam {
-
     namespace ui {
         class Slider : public Widget {
             public:
@@ -43,8 +41,6 @@
                 Box m_outerRail;
                 Box m_wagon;
         };
-    }
-
     }
 
 #endif /* !SLIDER_HPP_ */

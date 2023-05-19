@@ -14,7 +14,7 @@ Menu::Menu()
     sf::Vector2f wSize(info::getWindowSize());
 
     m_background.setSize(sf::Vector2f(WINDOW_SIZE));
-    m_backgroud.setTexture(&getResource().getTexture("menu_bg"));
+    m_background.setTexture(&getResource().getTexture("menu_bg"));
 
     ui::Text* title = ((ui::Text*)m_uiElements.at("Settings").get());
     title->setString("Settings");
