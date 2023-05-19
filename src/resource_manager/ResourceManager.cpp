@@ -21,6 +21,8 @@ namespace jam
     {
 
         loadTexture("menu_bg", "asset/texture/menu_bg.png");
+
+        loadFont("title_font", "asset/font/Shikamaru.ttf");
     }
 
     ResourceManager &ResourceManager::getInstance()
