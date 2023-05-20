@@ -20,6 +20,7 @@
         loadTexture("menu_bg", "asset/texture/menu_bg.png");
         loadTexture("cursor", "asset/texture/cursor.png");
 
+        loadFont("debugFont", "asset/font/debug_font.ttf");
         loadFont("title_font", "asset/font/Shikamaru.ttf");
     }
 

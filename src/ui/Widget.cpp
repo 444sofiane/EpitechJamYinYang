@@ -9,6 +9,7 @@
 #include "ResourceManager.hpp"
 
 namespace ui {
+
     Widget::Text::Text()
     {
         setOutlineColor(sf::Color::Black);
